@@ -12,12 +12,35 @@ namespace MotorList
 {
     public partial class Login : Form
     {
-        String Username;
-        String Password;
+        String Uname;
+        String Pword;
 
         public Login()
         {
             InitializeComponent();
+        }
+
+        /***************************************
+         *         GETTERS & SETTERS           *
+         ***************************************/         
+        public string GetUsernameErr()
+        {
+            return this.UsernameErr.Text;
+        }
+
+        public void SetUsernameErr(string msg)
+        {
+            this.UsernameErr.Text = msg;
+        }
+
+        public string GetPasswordErr()
+        {
+            return this.PasswordErr.Text;
+        }
+
+        public void SetPasswordErr(string msg)
+        {
+            this.PasswordErr.Text = msg;
         }
 
         private void Username_Enter(object sender, EventArgs e)
@@ -59,11 +82,13 @@ namespace MotorList
 
         private void LoginBtn_Click(object sender, EventArgs e)
         {
-            Username = UnameTxtBx.Text;
-            Password = PwdTxtBx.Text;
-            this.Hide();
+            Uname = UnameTxtBx.Text;
+            Pword = PwdTxtBx.Text;
+            //LoginCtlr login = new LoginCtlr(Uname, Pword);
             HomeGui form = new HomeGui();
             form.Show();
+            
+            
         }
 
         private void Exit_Click(object sender, EventArgs e)

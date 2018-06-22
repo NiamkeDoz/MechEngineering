@@ -8,12 +8,22 @@ namespace MotorList
 {
     class LoginCtlr
     {
-        String username = "Admin";
-        String password = "password";
+        String DBUname = "Admin";
+        String DBPword = "password";
 
         public LoginCtlr(String Username, String Password)
         {
-
+            Authenicate(Username, Password);
+        }
+        
+        public bool Authenicate(String username, String Password)
+        {
+            Login log = new Login();
+            if(username != DBUname)
+            {
+                
+            }
+            return true;
         }
     }
 }

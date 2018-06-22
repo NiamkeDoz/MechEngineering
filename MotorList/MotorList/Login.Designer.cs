@@ -35,6 +35,8 @@
             this.PwdTxtBx = new System.Windows.Forms.TextBox();
             this.LoginBtn = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.UsernameErr = new System.Windows.Forms.Label();
+            this.PasswordErr = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -120,12 +122,38 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Forgot Password";
             // 
+            // UsernameErr
+            // 
+            this.UsernameErr.AutoSize = true;
+            this.UsernameErr.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UsernameErr.ForeColor = System.Drawing.Color.Red;
+            this.UsernameErr.Location = new System.Drawing.Point(99, 150);
+            this.UsernameErr.Name = "UsernameErr";
+            this.UsernameErr.Size = new System.Drawing.Size(116, 15);
+            this.UsernameErr.TabIndex = 5;
+            this.UsernameErr.Text = "*Incorrect Username";
+            this.UsernameErr.Visible = false;
+            // 
+            // PasswordErr
+            // 
+            this.PasswordErr.AutoSize = true;
+            this.PasswordErr.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswordErr.ForeColor = System.Drawing.Color.Red;
+            this.PasswordErr.Location = new System.Drawing.Point(102, 208);
+            this.PasswordErr.Name = "PasswordErr";
+            this.PasswordErr.Size = new System.Drawing.Size(113, 15);
+            this.PasswordErr.TabIndex = 6;
+            this.PasswordErr.Text = "*Incorrect Password";
+            this.PasswordErr.Visible = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(181)))), ((int)(((byte)(245)))));
             this.ClientSize = new System.Drawing.Size(320, 415);
+            this.Controls.Add(this.PasswordErr);
+            this.Controls.Add(this.UsernameErr);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.PwdTxtBx);
@@ -151,6 +179,8 @@
         private System.Windows.Forms.Button LoginBtn;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label Exit;
+        private System.Windows.Forms.Label UsernameErr;
+        private System.Windows.Forms.Label PasswordErr;
     }
 }
 
