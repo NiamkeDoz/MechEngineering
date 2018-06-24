@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Exit = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.UnameTxtBx = new System.Windows.Forms.TextBox();
             this.PwdTxtBx = new System.Windows.Forms.TextBox();
@@ -42,8 +42,8 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(184)))), ((int)(((byte)(182)))));
-            this.panel1.Controls.Add(this.Exit);
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -51,21 +51,23 @@
             this.panel1.Size = new System.Drawing.Size(320, 49);
             this.panel1.TabIndex = 0;
             // 
-            // Exit
+            // button1
             // 
-            this.Exit.AutoSize = true;
-            this.Exit.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Exit.Location = new System.Drawing.Point(283, 9);
-            this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(25, 24);
-            this.Exit.TabIndex = 5;
-            this.Exit.Text = "X";
-            this.Exit.Click += new System.EventHandler(this.Exit_Click);
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(265, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(43, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "X";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Exit_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label1.Font = new System.Drawing.Font("Modern No. 20", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(183)))), ((int)(((byte)(184)))));
             this.label1.Location = new System.Drawing.Point(118, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(85, 31);
@@ -77,9 +79,9 @@
             this.UnameTxtBx.BackColor = System.Drawing.Color.White;
             this.UnameTxtBx.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UnameTxtBx.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.UnameTxtBx.Location = new System.Drawing.Point(74, 124);
+            this.UnameTxtBx.Location = new System.Drawing.Point(51, 124);
             this.UnameTxtBx.Name = "UnameTxtBx";
-            this.UnameTxtBx.Size = new System.Drawing.Size(164, 23);
+            this.UnameTxtBx.Size = new System.Drawing.Size(213, 23);
             this.UnameTxtBx.TabIndex = 1;
             this.UnameTxtBx.Text = "Username";
             this.UnameTxtBx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -90,9 +92,9 @@
             // 
             this.PwdTxtBx.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PwdTxtBx.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.PwdTxtBx.Location = new System.Drawing.Point(74, 178);
+            this.PwdTxtBx.Location = new System.Drawing.Point(51, 178);
             this.PwdTxtBx.Name = "PwdTxtBx";
-            this.PwdTxtBx.Size = new System.Drawing.Size(164, 23);
+            this.PwdTxtBx.Size = new System.Drawing.Size(213, 23);
             this.PwdTxtBx.TabIndex = 2;
             this.PwdTxtBx.Text = "Password";
             this.PwdTxtBx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -102,9 +104,9 @@
             // LoginBtn
             // 
             this.LoginBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LoginBtn.Location = new System.Drawing.Point(74, 272);
+            this.LoginBtn.Location = new System.Drawing.Point(84, 247);
             this.LoginBtn.Name = "LoginBtn";
-            this.LoginBtn.Size = new System.Drawing.Size(164, 36);
+            this.LoginBtn.Size = new System.Drawing.Size(149, 36);
             this.LoginBtn.TabIndex = 3;
             this.LoginBtn.Text = "Login";
             this.LoginBtn.UseVisualStyleBackColor = true;
@@ -115,7 +117,7 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkColor = System.Drawing.Color.White;
-            this.linkLabel1.Location = new System.Drawing.Point(128, 227);
+            this.linkLabel1.Location = new System.Drawing.Point(105, 308);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(110, 16);
             this.linkLabel1.TabIndex = 4;
@@ -139,7 +141,7 @@
             this.PasswordErr.AutoSize = true;
             this.PasswordErr.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PasswordErr.ForeColor = System.Drawing.Color.Red;
-            this.PasswordErr.Location = new System.Drawing.Point(102, 208);
+            this.PasswordErr.Location = new System.Drawing.Point(102, 215);
             this.PasswordErr.Name = "PasswordErr";
             this.PasswordErr.Size = new System.Drawing.Size(113, 15);
             this.PasswordErr.TabIndex = 6;
@@ -178,9 +180,9 @@
         private System.Windows.Forms.TextBox PwdTxtBx;
         private System.Windows.Forms.Button LoginBtn;
         private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.Label Exit;
         private System.Windows.Forms.Label UsernameErr;
         private System.Windows.Forms.Label PasswordErr;
+        private System.Windows.Forms.Button button1;
     }
 }
 

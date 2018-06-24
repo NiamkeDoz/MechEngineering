@@ -16,5 +16,12 @@ namespace MotorList
         {
             InitializeComponent();
         }
+
+        private void HomeBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            HomeGui home = new HomeGui();
+            home.Show();
+        }
     }
 }

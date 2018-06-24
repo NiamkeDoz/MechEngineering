@@ -14,6 +14,7 @@ namespace MotorList
     {
         String Uname;
         String Pword;
+        public bool loginStatus = false;
 
         public Login()
         {
@@ -42,6 +43,11 @@ namespace MotorList
         {
             this.PasswordErr.Text = msg;
         }
+
+
+        /****************************************
+         *      Username & Password Features    *
+         ***************************************/
 
         private void Username_Enter(object sender, EventArgs e)
         {
@@ -80,13 +86,42 @@ namespace MotorList
             }
         }
 
+        public void DisplayLoginError(bool UnameErr, bool PwordErr)
+        {
+            //Display the username and password error message if both are incorrect.
+            if (UnameErr == false && PwordErr == false)
+            {
+                this.UsernameErr.Visible = true;
+                this.PasswordErr.Visible = true;
+            }
+            //Display the username Error if username is incorrect.
+            else if (UnameErr == true && PwordErr == false)
+            {
+                this.UsernameErr.Visible = true;
+            }
+            //Display the password Error if password is incorrect.
+            else if(UnameErr == false && PwordErr != false)
+            {
+                this.PasswordErr.Visible = true;
+            }
+            else
+            {
+                this.UsernameErr.Visible = false;
+                this.PasswordErr.Visible = false;
+            }
+        }
+
         private void LoginBtn_Click(object sender, EventArgs e)
         {
             Uname = UnameTxtBx.Text;
             Pword = PwdTxtBx.Text;
+            //Keeps trying to login until the username and password combination is correct.
+            
+            LoginCtlr login = new LoginCtlr(Uname, Pword);
+            
             //LoginCtlr login = new LoginCtlr(Uname, Pword);
-            HomeGui form = new HomeGui();
-            form.Show();
+            //HomeGui form = new HomeGui();
+            //form.Show();
             
             
         }
