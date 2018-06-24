@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.HomeBtn = new System.Windows.Forms.Button();
-            this.dashboardBtn = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.ProfilePic = new System.Windows.Forms.PictureBox();
+            this.LogOutBtn = new System.Windows.Forms.Button();
             this.SettingsBtn = new System.Windows.Forms.Button();
             this.searchBtn = new System.Windows.Forms.Button();
-            this.LogOutBtn = new System.Windows.Forms.Button();
-            this.ProfilePic = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.dashboardBtn = new System.Windows.Forms.Button();
+            this.HomeBtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ProfilePic)).BeginInit();
             this.SuspendLayout();
@@ -56,32 +56,35 @@
             this.panel1.Size = new System.Drawing.Size(180, 560);
             this.panel1.TabIndex = 0;
             // 
-            // HomeBtn
+            // panel2
             // 
-            this.HomeBtn.BackColor = System.Drawing.Color.Transparent;
-            this.HomeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.HomeBtn.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HomeBtn.ForeColor = System.Drawing.Color.White;
-            this.HomeBtn.Location = new System.Drawing.Point(12, 213);
-            this.HomeBtn.Name = "HomeBtn";
-            this.HomeBtn.Size = new System.Drawing.Size(165, 41);
-            this.HomeBtn.TabIndex = 1;
-            this.HomeBtn.Text = "Home";
-            this.HomeBtn.UseVisualStyleBackColor = false;
-            this.HomeBtn.Click += new System.EventHandler(this.HomeBtn_Click);
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(181)))), ((int)(((byte)(245)))));
+            this.panel2.Location = new System.Drawing.Point(0, 213);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(16, 42);
+            this.panel2.TabIndex = 1;
             // 
-            // dashboardBtn
+            // ProfilePic
             // 
-            this.dashboardBtn.BackColor = System.Drawing.Color.Transparent;
-            this.dashboardBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.dashboardBtn.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dashboardBtn.ForeColor = System.Drawing.Color.White;
-            this.dashboardBtn.Location = new System.Drawing.Point(12, 260);
-            this.dashboardBtn.Name = "dashboardBtn";
-            this.dashboardBtn.Size = new System.Drawing.Size(165, 41);
-            this.dashboardBtn.TabIndex = 2;
-            this.dashboardBtn.Text = "Dashboard";
-            this.dashboardBtn.UseVisualStyleBackColor = false;
+            this.ProfilePic.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ProfilePic.Location = new System.Drawing.Point(12, 12);
+            this.ProfilePic.Name = "ProfilePic";
+            this.ProfilePic.Size = new System.Drawing.Size(152, 129);
+            this.ProfilePic.TabIndex = 1;
+            this.ProfilePic.TabStop = false;
+            // 
+            // LogOutBtn
+            // 
+            this.LogOutBtn.BackColor = System.Drawing.Color.Transparent;
+            this.LogOutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.LogOutBtn.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogOutBtn.ForeColor = System.Drawing.Color.White;
+            this.LogOutBtn.Location = new System.Drawing.Point(12, 401);
+            this.LogOutBtn.Name = "LogOutBtn";
+            this.LogOutBtn.Size = new System.Drawing.Size(165, 41);
+            this.LogOutBtn.TabIndex = 5;
+            this.LogOutBtn.Text = "Sign Out";
+            this.LogOutBtn.UseVisualStyleBackColor = false;
             // 
             // SettingsBtn
             // 
@@ -109,35 +112,32 @@
             this.searchBtn.Text = "Search";
             this.searchBtn.UseVisualStyleBackColor = false;
             // 
-            // LogOutBtn
+            // dashboardBtn
             // 
-            this.LogOutBtn.BackColor = System.Drawing.Color.Transparent;
-            this.LogOutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.LogOutBtn.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogOutBtn.ForeColor = System.Drawing.Color.White;
-            this.LogOutBtn.Location = new System.Drawing.Point(12, 401);
-            this.LogOutBtn.Name = "LogOutBtn";
-            this.LogOutBtn.Size = new System.Drawing.Size(165, 41);
-            this.LogOutBtn.TabIndex = 5;
-            this.LogOutBtn.Text = "Sign Out";
-            this.LogOutBtn.UseVisualStyleBackColor = false;
+            this.dashboardBtn.BackColor = System.Drawing.Color.Transparent;
+            this.dashboardBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.dashboardBtn.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashboardBtn.ForeColor = System.Drawing.Color.White;
+            this.dashboardBtn.Location = new System.Drawing.Point(12, 260);
+            this.dashboardBtn.Name = "dashboardBtn";
+            this.dashboardBtn.Size = new System.Drawing.Size(165, 41);
+            this.dashboardBtn.TabIndex = 2;
+            this.dashboardBtn.Text = "Dashboard";
+            this.dashboardBtn.UseVisualStyleBackColor = false;
             // 
-            // ProfilePic
+            // HomeBtn
             // 
-            this.ProfilePic.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ProfilePic.Location = new System.Drawing.Point(12, 12);
-            this.ProfilePic.Name = "ProfilePic";
-            this.ProfilePic.Size = new System.Drawing.Size(152, 129);
-            this.ProfilePic.TabIndex = 1;
-            this.ProfilePic.TabStop = false;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(181)))), ((int)(((byte)(245)))));
-            this.panel2.Location = new System.Drawing.Point(0, 213);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(16, 42);
-            this.panel2.TabIndex = 1;
+            this.HomeBtn.BackColor = System.Drawing.Color.Transparent;
+            this.HomeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.HomeBtn.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HomeBtn.ForeColor = System.Drawing.Color.White;
+            this.HomeBtn.Location = new System.Drawing.Point(12, 213);
+            this.HomeBtn.Name = "HomeBtn";
+            this.HomeBtn.Size = new System.Drawing.Size(165, 41);
+            this.HomeBtn.TabIndex = 1;
+            this.HomeBtn.Text = "Home";
+            this.HomeBtn.UseVisualStyleBackColor = false;
+            this.HomeBtn.Click += new System.EventHandler(this.HomeBtn_Click);
             // 
             // HomeGui
             // 
@@ -150,6 +150,7 @@
             this.Name = "HomeGui";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ProfilePic)).EndInit();
             this.ResumeLayout(false);

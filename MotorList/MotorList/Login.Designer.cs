@@ -37,6 +37,7 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.UsernameErr = new System.Windows.Forms.Label();
             this.PasswordErr = new System.Windows.Forms.Label();
+            this.SignUp_btn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -104,9 +105,9 @@
             // LoginBtn
             // 
             this.LoginBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LoginBtn.Location = new System.Drawing.Point(84, 247);
+            this.LoginBtn.Location = new System.Drawing.Point(162, 243);
             this.LoginBtn.Name = "LoginBtn";
-            this.LoginBtn.Size = new System.Drawing.Size(149, 36);
+            this.LoginBtn.Size = new System.Drawing.Size(102, 36);
             this.LoginBtn.TabIndex = 3;
             this.LoginBtn.Text = "Login";
             this.LoginBtn.UseVisualStyleBackColor = true;
@@ -117,7 +118,7 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkColor = System.Drawing.Color.White;
-            this.linkLabel1.Location = new System.Drawing.Point(105, 308);
+            this.linkLabel1.Location = new System.Drawing.Point(105, 338);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(110, 16);
             this.linkLabel1.TabIndex = 4;
@@ -148,12 +149,24 @@
             this.PasswordErr.Text = "*Incorrect Password";
             this.PasswordErr.Visible = false;
             // 
+            // SignUp_btn
+            // 
+            this.SignUp_btn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SignUp_btn.Location = new System.Drawing.Point(51, 243);
+            this.SignUp_btn.Name = "SignUp_btn";
+            this.SignUp_btn.Size = new System.Drawing.Size(102, 36);
+            this.SignUp_btn.TabIndex = 7;
+            this.SignUp_btn.Text = "Sign Up";
+            this.SignUp_btn.UseVisualStyleBackColor = true;
+            this.SignUp_btn.Click += new System.EventHandler(this.SignUp_btn_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(181)))), ((int)(((byte)(245)))));
             this.ClientSize = new System.Drawing.Size(320, 415);
+            this.Controls.Add(this.SignUp_btn);
             this.Controls.Add(this.PasswordErr);
             this.Controls.Add(this.UsernameErr);
             this.Controls.Add(this.linkLabel1);
@@ -183,6 +196,7 @@
         private System.Windows.Forms.Label UsernameErr;
         private System.Windows.Forms.Label PasswordErr;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button SignUp_btn;
     }
 }
 

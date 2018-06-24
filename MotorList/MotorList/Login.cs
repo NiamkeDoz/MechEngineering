@@ -118,6 +118,7 @@ namespace MotorList
             //Keeps trying to login until the username and password combination is correct.
             
             LoginCtlr login = new LoginCtlr(Uname, Pword);
+            this.Hide();
             
             //LoginCtlr login = new LoginCtlr(Uname, Pword);
             //HomeGui form = new HomeGui();
@@ -129,6 +130,13 @@ namespace MotorList
         private void Exit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void SignUp_btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SignUp form = new SignUp();
+            form.Show();
         }
     }
 }
