@@ -30,6 +30,8 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.CreateLbl = new System.Windows.Forms.Label();
+            this.BackBtn = new System.Windows.Forms.Button();
+            this.FNameTxtBx = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,13 +47,31 @@
             // CreateLbl
             // 
             this.CreateLbl.AutoSize = true;
-            this.CreateLbl.Font = new System.Drawing.Font("Modern No. 20", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CreateLbl.Font = new System.Drawing.Font("Arial Narrow", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CreateLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(183)))), ((int)(((byte)(184)))));
             this.CreateLbl.Location = new System.Drawing.Point(111, 10);
             this.CreateLbl.Name = "CreateLbl";
-            this.CreateLbl.Size = new System.Drawing.Size(234, 31);
+            this.CreateLbl.Size = new System.Drawing.Size(215, 33);
             this.CreateLbl.TabIndex = 1;
             this.CreateLbl.Text = "Create An Account";
+            // 
+            // BackBtn
+            // 
+            this.BackBtn.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BackBtn.Location = new System.Drawing.Point(12, 601);
+            this.BackBtn.Name = "BackBtn";
+            this.BackBtn.Size = new System.Drawing.Size(92, 37);
+            this.BackBtn.TabIndex = 1;
+            this.BackBtn.Text = "Back";
+            this.BackBtn.UseVisualStyleBackColor = true;
+            this.BackBtn.Click += new System.EventHandler(this.BackBtn_Click);
+            // 
+            // FNameTxtBx
+            // 
+            this.FNameTxtBx.Location = new System.Drawing.Point(116, 161);
+            this.FNameTxtBx.Name = "FNameTxtBx";
+            this.FNameTxtBx.Size = new System.Drawing.Size(209, 20);
+            this.FNameTxtBx.TabIndex = 2;
             // 
             // SignUp
             // 
@@ -59,6 +79,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(181)))), ((int)(((byte)(245)))));
             this.ClientSize = new System.Drawing.Size(450, 650);
+            this.Controls.Add(this.FNameTxtBx);
+            this.Controls.Add(this.BackBtn);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SignUp";
@@ -67,6 +89,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -74,5 +97,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label CreateLbl;
+        private System.Windows.Forms.Button BackBtn;
+        private System.Windows.Forms.TextBox FNameTxtBx;
     }
 }

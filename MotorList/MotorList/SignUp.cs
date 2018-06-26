@@ -16,5 +16,12 @@ namespace MotorList
         {
             InitializeComponent();
         }
+
+        private void BackBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login form = new Login();
+            form.Show();
+        }
     }
 }

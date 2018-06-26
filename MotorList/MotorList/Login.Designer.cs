@@ -67,22 +67,22 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(183)))), ((int)(((byte)(184)))));
             this.label1.Location = new System.Drawing.Point(118, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 31);
+            this.label1.Size = new System.Drawing.Size(86, 33);
             this.label1.TabIndex = 3;
             this.label1.Text = "Login";
             // 
             // UnameTxtBx
             // 
             this.UnameTxtBx.BackColor = System.Drawing.Color.White;
-            this.UnameTxtBx.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UnameTxtBx.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UnameTxtBx.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.UnameTxtBx.Location = new System.Drawing.Point(51, 124);
             this.UnameTxtBx.Name = "UnameTxtBx";
-            this.UnameTxtBx.Size = new System.Drawing.Size(213, 23);
+            this.UnameTxtBx.Size = new System.Drawing.Size(213, 25);
             this.UnameTxtBx.TabIndex = 1;
             this.UnameTxtBx.Text = "Username";
             this.UnameTxtBx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -91,11 +91,11 @@
             // 
             // PwdTxtBx
             // 
-            this.PwdTxtBx.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PwdTxtBx.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PwdTxtBx.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.PwdTxtBx.Location = new System.Drawing.Point(51, 178);
             this.PwdTxtBx.Name = "PwdTxtBx";
-            this.PwdTxtBx.Size = new System.Drawing.Size(213, 23);
+            this.PwdTxtBx.Size = new System.Drawing.Size(213, 25);
             this.PwdTxtBx.TabIndex = 2;
             this.PwdTxtBx.Text = "Password";
             this.PwdTxtBx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -104,7 +104,7 @@
             // 
             // LoginBtn
             // 
-            this.LoginBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginBtn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginBtn.Location = new System.Drawing.Point(162, 243);
             this.LoginBtn.Name = "LoginBtn";
             this.LoginBtn.Size = new System.Drawing.Size(102, 36);
@@ -116,11 +116,11 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkColor = System.Drawing.Color.White;
-            this.linkLabel1.Location = new System.Drawing.Point(105, 338);
+            this.linkLabel1.Location = new System.Drawing.Point(136, 331);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(110, 16);
+            this.linkLabel1.Size = new System.Drawing.Size(128, 18);
             this.linkLabel1.TabIndex = 4;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Forgot Password";
@@ -151,7 +151,7 @@
             // 
             // SignUp_btn
             // 
-            this.SignUp_btn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SignUp_btn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SignUp_btn.Location = new System.Drawing.Point(51, 243);
             this.SignUp_btn.Name = "SignUp_btn";
             this.SignUp_btn.Size = new System.Drawing.Size(102, 36);

@@ -77,7 +77,7 @@
             // 
             this.LogOutBtn.BackColor = System.Drawing.Color.Transparent;
             this.LogOutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.LogOutBtn.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogOutBtn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LogOutBtn.ForeColor = System.Drawing.Color.White;
             this.LogOutBtn.Location = new System.Drawing.Point(12, 401);
             this.LogOutBtn.Name = "LogOutBtn";
@@ -90,7 +90,7 @@
             // 
             this.SettingsBtn.BackColor = System.Drawing.Color.Transparent;
             this.SettingsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.SettingsBtn.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SettingsBtn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SettingsBtn.ForeColor = System.Drawing.Color.White;
             this.SettingsBtn.Location = new System.Drawing.Point(12, 354);
             this.SettingsBtn.Name = "SettingsBtn";
@@ -103,7 +103,7 @@
             // 
             this.searchBtn.BackColor = System.Drawing.Color.Transparent;
             this.searchBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.searchBtn.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchBtn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchBtn.ForeColor = System.Drawing.Color.White;
             this.searchBtn.Location = new System.Drawing.Point(12, 307);
             this.searchBtn.Name = "searchBtn";
@@ -116,7 +116,7 @@
             // 
             this.dashboardBtn.BackColor = System.Drawing.Color.Transparent;
             this.dashboardBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.dashboardBtn.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashboardBtn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dashboardBtn.ForeColor = System.Drawing.Color.White;
             this.dashboardBtn.Location = new System.Drawing.Point(12, 260);
             this.dashboardBtn.Name = "dashboardBtn";
@@ -129,7 +129,7 @@
             // 
             this.HomeBtn.BackColor = System.Drawing.Color.Transparent;
             this.HomeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.HomeBtn.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HomeBtn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HomeBtn.ForeColor = System.Drawing.Color.White;
             this.HomeBtn.Location = new System.Drawing.Point(12, 213);
             this.HomeBtn.Name = "HomeBtn";
@@ -150,7 +150,6 @@
             this.Name = "HomeGui";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ProfilePic)).EndInit();
             this.ResumeLayout(false);
