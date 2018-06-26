@@ -12,8 +12,8 @@ namespace MotorList
 {
     public partial class Login : Form
     {
-        String Uname;
-        String Pword;
+        private string Uname;
+        private string Pword;
         public bool loginStatus = false;
 
         public Login()
@@ -86,6 +86,21 @@ namespace MotorList
             }
         }
 
+        private void CheckSubmission()
+        {
+            //If the Username and Password matches the placeholder send a flag to the user.
+            if(UnameTxtBx.Text == "Username" && PwdTxtBx.Text == "Password")
+            {
+                this.UsernameErr.Visible = true;
+                this.PasswordErr.Visible = true;
+            }
+            else
+            {
+                this.UsernameErr.Visible = false;
+                this.PasswordErr.Visible = false;
+            }
+        }
+
         public void DisplayLoginError(bool UnameErr, bool PwordErr)
         {
             //Display the username and password error message if both are incorrect.
@@ -116,9 +131,9 @@ namespace MotorList
             Uname = UnameTxtBx.Text;
             Pword = PwdTxtBx.Text;
             //Keeps trying to login until the username and password combination is correct.
-            
+
             LoginCtlr login = new LoginCtlr(Uname, Pword);
-            this.Hide();
+            //this.Hide();
             
             //LoginCtlr login = new LoginCtlr(Uname, Pword);
             //HomeGui form = new HomeGui();

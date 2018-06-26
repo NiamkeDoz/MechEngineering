@@ -78,7 +78,7 @@
             // UnameTxtBx
             // 
             this.UnameTxtBx.BackColor = System.Drawing.Color.White;
-            this.UnameTxtBx.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UnameTxtBx.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UnameTxtBx.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.UnameTxtBx.Location = new System.Drawing.Point(51, 124);
             this.UnameTxtBx.Name = "UnameTxtBx";
@@ -91,7 +91,7 @@
             // 
             // PwdTxtBx
             // 
-            this.PwdTxtBx.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PwdTxtBx.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PwdTxtBx.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.PwdTxtBx.Location = new System.Drawing.Point(51, 178);
             this.PwdTxtBx.Name = "PwdTxtBx";
@@ -128,11 +128,11 @@
             // UsernameErr
             // 
             this.UsernameErr.AutoSize = true;
-            this.UsernameErr.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UsernameErr.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UsernameErr.ForeColor = System.Drawing.Color.Red;
             this.UsernameErr.Location = new System.Drawing.Point(99, 150);
             this.UsernameErr.Name = "UsernameErr";
-            this.UsernameErr.Size = new System.Drawing.Size(116, 15);
+            this.UsernameErr.Size = new System.Drawing.Size(126, 16);
             this.UsernameErr.TabIndex = 5;
             this.UsernameErr.Text = "*Incorrect Username";
             this.UsernameErr.Visible = false;
@@ -140,11 +140,11 @@
             // PasswordErr
             // 
             this.PasswordErr.AutoSize = true;
-            this.PasswordErr.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswordErr.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PasswordErr.ForeColor = System.Drawing.Color.Red;
             this.PasswordErr.Location = new System.Drawing.Point(102, 215);
             this.PasswordErr.Name = "PasswordErr";
-            this.PasswordErr.Size = new System.Drawing.Size(113, 15);
+            this.PasswordErr.Size = new System.Drawing.Size(124, 16);
             this.PasswordErr.TabIndex = 6;
             this.PasswordErr.Text = "*Incorrect Password";
             this.PasswordErr.Visible = false;
