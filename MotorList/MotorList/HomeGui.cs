@@ -23,5 +23,21 @@ namespace MotorList
             HomeGui home = new HomeGui();
             home.Show();
         }
+
+        private void LogOutBtn_Click(object sender, EventArgs e)
+        {
+            //Fix this later to log the user out of the system.
+            
+            Login login = new Login();
+            login.Show();
+            this.Hide();
+        }
+
+        private void AddUser_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AddUser form = new AddUser();
+            form.Show();
+        }
     }
 }

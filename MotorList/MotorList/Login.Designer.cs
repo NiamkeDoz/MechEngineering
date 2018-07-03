@@ -104,13 +104,15 @@
             // 
             // LoginBtn
             // 
+            this.LoginBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.LoginBtn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginBtn.ForeColor = System.Drawing.Color.White;
             this.LoginBtn.Location = new System.Drawing.Point(162, 243);
             this.LoginBtn.Name = "LoginBtn";
             this.LoginBtn.Size = new System.Drawing.Size(102, 36);
             this.LoginBtn.TabIndex = 3;
             this.LoginBtn.Text = "Login";
-            this.LoginBtn.UseVisualStyleBackColor = true;
+            this.LoginBtn.UseVisualStyleBackColor = false;
             this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
             // 
             // linkLabel1
@@ -151,13 +153,15 @@
             // 
             // SignUp_btn
             // 
+            this.SignUp_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.SignUp_btn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SignUp_btn.ForeColor = System.Drawing.Color.White;
             this.SignUp_btn.Location = new System.Drawing.Point(51, 243);
             this.SignUp_btn.Name = "SignUp_btn";
             this.SignUp_btn.Size = new System.Drawing.Size(102, 36);
             this.SignUp_btn.TabIndex = 7;
             this.SignUp_btn.Text = "Sign Up";
-            this.SignUp_btn.UseVisualStyleBackColor = true;
+            this.SignUp_btn.UseVisualStyleBackColor = false;
             this.SignUp_btn.Click += new System.EventHandler(this.SignUp_btn_Click);
             // 
             // Login

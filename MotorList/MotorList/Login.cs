@@ -133,7 +133,7 @@ namespace MotorList
             //Keeps trying to login until the username and password combination is correct.
 
             LoginCtlr login = new LoginCtlr(Uname, Pword);
-            //this.Hide();
+            this.Hide();
             
             //LoginCtlr login = new LoginCtlr(Uname, Pword);
             //HomeGui form = new HomeGui();

@@ -69,13 +69,15 @@
             // 
             // BackBtn
             // 
+            this.BackBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.BackBtn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BackBtn.ForeColor = System.Drawing.Color.White;
             this.BackBtn.Location = new System.Drawing.Point(12, 601);
             this.BackBtn.Name = "BackBtn";
             this.BackBtn.Size = new System.Drawing.Size(92, 37);
             this.BackBtn.TabIndex = 1;
             this.BackBtn.Text = "Back";
-            this.BackBtn.UseVisualStyleBackColor = true;
+            this.BackBtn.UseVisualStyleBackColor = false;
             this.BackBtn.Click += new System.EventHandler(this.BackBtn_Click);
             // 
             // FName
@@ -198,13 +200,15 @@
             // 
             // SubmitBtn
             // 
+            this.SubmitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.SubmitBtn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SubmitBtn.ForeColor = System.Drawing.Color.White;
             this.SubmitBtn.Location = new System.Drawing.Point(346, 601);
             this.SubmitBtn.Name = "SubmitBtn";
             this.SubmitBtn.Size = new System.Drawing.Size(92, 37);
             this.SubmitBtn.TabIndex = 14;
             this.SubmitBtn.Text = "Submit";
-            this.SubmitBtn.UseVisualStyleBackColor = true;
+            this.SubmitBtn.UseVisualStyleBackColor = false;
             // 
             // SignUp
             // 
