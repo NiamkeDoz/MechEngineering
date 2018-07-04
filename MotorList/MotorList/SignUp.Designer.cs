@@ -99,6 +99,8 @@
             this.PhoneTxtBx.TabIndex = 3;
             this.PhoneTxtBx.Text = "123-456-7890";
             this.PhoneTxtBx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.PhoneTxtBx.Enter += new System.EventHandler(this.Phone_Enter);
+            this.PhoneTxtBx.Leave += new System.EventHandler(this.Phone_Leave);
             // 
             // LNameTxtBx
             // 
@@ -137,6 +139,8 @@
             this.EmailTxtBx.TabIndex = 5;
             this.EmailTxtBx.Text = "name@name.com";
             this.EmailTxtBx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.EmailTxtBx.Enter += new System.EventHandler(this.Email_Enter);
+            this.EmailTxtBx.Leave += new System.EventHandler(this.Email_Leave);
             // 
             // FNameLbl
             // 
@@ -209,6 +213,7 @@
             this.SubmitBtn.TabIndex = 14;
             this.SubmitBtn.Text = "Submit";
             this.SubmitBtn.UseVisualStyleBackColor = false;
+            this.SubmitBtn.Click += new System.EventHandler(this.SubmitBtn_Click);
             // 
             // SignUp
             // 
