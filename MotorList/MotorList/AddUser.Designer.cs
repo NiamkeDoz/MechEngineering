@@ -159,6 +159,8 @@
             this.EmailTxtBx.TabIndex = 17;
             this.EmailTxtBx.Text = "name@name.com";
             this.EmailTxtBx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.EmailTxtBx.Enter += new System.EventHandler(this.Email_Enter);
+            this.EmailTxtBx.Leave += new System.EventHandler(this.Email_Leave);
             // 
             // LNameTxtBx
             // 
@@ -179,6 +181,8 @@
             this.PhoneTxtBx.TabIndex = 15;
             this.PhoneTxtBx.Text = "123-456-7890";
             this.PhoneTxtBx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.PhoneTxtBx.Enter += new System.EventHandler(this.Phone_Enter);
+            this.PhoneTxtBx.Leave += new System.EventHandler(this.Phone_Leave);
             // 
             // FName
             // 
