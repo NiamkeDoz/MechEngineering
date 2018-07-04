@@ -37,7 +37,7 @@
             this.LNameLbl = new System.Windows.Forms.Label();
             this.FNameLbl = new System.Windows.Forms.Label();
             this.UNameTxtBx = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.PWordTxtBx = new System.Windows.Forms.TextBox();
             this.EmailTxtBx = new System.Windows.Forms.TextBox();
             this.LNameTxtBx = new System.Windows.Forms.TextBox();
             this.PhoneTxtBx = new System.Windows.Forms.TextBox();
@@ -140,14 +140,14 @@
             this.UNameTxtBx.Size = new System.Drawing.Size(209, 26);
             this.UNameTxtBx.TabIndex = 19;
             // 
-            // textBox4
+            // PWordTxtBx
             // 
-            this.textBox4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox4.Location = new System.Drawing.Point(184, 426);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(209, 26);
-            this.textBox4.TabIndex = 18;
+            this.PWordTxtBx.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PWordTxtBx.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.PWordTxtBx.Location = new System.Drawing.Point(184, 426);
+            this.PWordTxtBx.Name = "PWordTxtBx";
+            this.PWordTxtBx.Size = new System.Drawing.Size(209, 26);
+            this.PWordTxtBx.TabIndex = 18;
             // 
             // EmailTxtBx
             // 
@@ -210,6 +210,7 @@
             this.button1.TabIndex = 30;
             this.button1.Text = "Add User";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // BackBtn
             // 
@@ -279,7 +280,7 @@
             this.Controls.Add(this.LNameLbl);
             this.Controls.Add(this.FNameLbl);
             this.Controls.Add(this.UNameTxtBx);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.PWordTxtBx);
             this.Controls.Add(this.EmailTxtBx);
             this.Controls.Add(this.LNameTxtBx);
             this.Controls.Add(this.PhoneTxtBx);
@@ -308,7 +309,7 @@
         private System.Windows.Forms.Label LNameLbl;
         private System.Windows.Forms.Label FNameLbl;
         private System.Windows.Forms.TextBox UNameTxtBx;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox PWordTxtBx;
         private System.Windows.Forms.TextBox EmailTxtBx;
         private System.Windows.Forms.TextBox LNameTxtBx;
         private System.Windows.Forms.TextBox PhoneTxtBx;
